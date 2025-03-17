@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">work</a></li>
-                <li><a href="#">blog</a></li>
-                <li><a href="#">testimonials</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="#home" class="nav-link">home</a></li>
+                <li><a href="#about" class="nav-link">about</a></li>
+                <li><a href="#work" class="nav-link">work</a></li>
+                <li><a href="#blog" class="nav-link">blog</a></li>
+                <li><a href="#testimonials" class="nav-link">testimonials</a></li>
+                <li><a href="#contact" class="nav-link">contact</a></li>
             </ul>
         </nav>
     </header>
@@ -39,7 +40,25 @@
         </div>
     </section>
 
-    <section id="testimonials">
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Ingeniería Civil Informática - Universidad de la frontera<br>
+        algo más.
+        </p>
+    </section>
+
+    <section id="work" class="section">
+        <h2>My Work</h2>
+        <p>Algunos de mis proyectos destacados.</p>
+    </section>
+
+    <section id="blog" class="section">
+        <h2>Blog</h2>
+        <p>Esta cuestión se supone que va a ser más complicada.</p>
+    </section>
+
+
+    <section id="testimonials" class="section">
         <h2>What others have to say:</h2>
         <div class="testimonial">
             <img src="profile1.jpg" alt="Anita López">
@@ -52,15 +71,10 @@
             <p>⭐⭐⭐⭐</p>
         </div>
     </section>
-</body>
-</html>
 
-    <main>
-        <section>
-            <h1>Estudiante de informática y desarrolladora en formación.</h1>
-            <p>Estudiante de informática y desarrolladora en formación.</p>
-        </section>
-    </main>
-    <script src="script.js"></script>
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>Puedes contactarme a través de mis redes o email.</p>
+    </section>
 </body>
 </html>
